@@ -1,0 +1,127 @@
+/*** Default settings***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    border: 2px solid #888;
+
+}
+
+.container nav {
+    width: 95%;
+    height: 100px;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 auto;
+}
+
+.container nav ul {
+    float: right;
+}
+
+.container nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clicked {
+    background: #cccccc;
+}
+
+.container nav ul li a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #111;
+    border: 2px solid;
+    padding: 15px 50px;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+}
+
+.container nav ul li a:hover {
+    background: #cccccc;
+}
+
+footer {
+    width: 95%;
+    margin: 0 auto;
+    height: 100px;
+    border-top: 2px solid #cccccc;
+}
+
+footer p {
+    position: relative;
+    top: 50px;
+}
+
+/**********************************/
+
+/**** about.html - stylesheet ****/
+
+
+h1 {
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+main .about {
+    margin: 40px;
+    width: 50%;
+}
+
+
+
+.profile-image {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #666;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 60px;
+}
+
+.hobbies-title {
+    margin: 20px;
+}
+
+.hobbies-list {
+
+    padding-left: 50px;
+}
+
+.quote-title {
+    margin: 20px;
+}
+
+.quote-content {
+    margin: 20px 20px 50px 20px;
+}
+
+
+/************   End about.html  ***************/
+
+
+/********* index.html - stylesheet **********/
+
+.introduction {
+    margin: 30px;
+    font-size: 1.3rem;
+}
+
+.introduction p {
+    margin-bottom: 40px;
+}
