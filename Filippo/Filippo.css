@@ -1,0 +1,41 @@
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: right;
+}
+
+.nav {
+    display: inline-block;
+    padding:20px;
+    margin:20px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+}
+li {
+    font-size: 30px;
+}
+
+img {
+    position: relative;
+    float: right;
+    top:o;
+    right:100px
+}
+}
