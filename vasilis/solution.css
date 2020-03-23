@@ -14,10 +14,13 @@
     float: right;
 }
 .navigation {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     height: 15vh;
+    background-color: rgb(164, 26, 228);;
 }
-
+a {
+    text-decoration: unset;
+}
 
 main {
     
@@ -30,12 +33,13 @@ main p {
 a {
     color: black;
 }
+
 footer {
-    margin-top: 20px;    
-   
+    margin-top: 20vh;
+    border: 2px unset black;
+    height: 60px;
 }
 span {
     float: right;
     margin-right: 20px;
-
 }
