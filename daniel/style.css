@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+header {
+    height: 60px;
+    text-align: right;
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer * {
+    display: inline-block;
+}
+
+.floatRight {
+    float: right;
+}
+
+.currentButton {
+    background-color: darkgray;
+}
