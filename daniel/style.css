@@ -10,9 +10,17 @@ html {
     font-family: Arial, Helvetica, sans-serif;;
 }
 
+h1, h2, h3, p, ul, blockquote {
+    padding: 20px;
+}
+
 header {
     height: 60px;
     text-align: right;
+}
+
+footer, li {
+    margin: 10px;
 }
 
 button {
@@ -30,4 +38,12 @@ footer * {
 
 .currentButton {
     background-color: darkgray;
+}
+
+.shadow {
+    size: 100% 100%;
+    padding: 5px;
+    box-shadow: 
+    2px 2px 4px darkgrey,    
+    -2px -2px 4px darkgrey;
 }
