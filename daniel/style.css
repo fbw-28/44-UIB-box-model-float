@@ -40,6 +40,11 @@ footer * {
     background-color: darkgray;
 }
 
+.profile-pic {
+    width: 10vw;
+    margin: 0 3vw;
+}
+
 .shadow {
     size: 100% 100%;
     padding: 5px;
