@@ -1,9 +1,5 @@
-html {
+* {
     box-sizing: border-box;
-}
-
-*::before, *::after {
-    box-sizing: inherit;
 }
 
 * {
@@ -15,17 +11,34 @@ h1, h2, h3, p, ul, blockquote {
 }
 
 header {
-    height: 60px;
-    text-align: right;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer, li {
     margin: 10px;
 }
 
-button {
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
     display: inline-block;
-    margin: 10px;
+    width: 120px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
 }
 
 footer * {
