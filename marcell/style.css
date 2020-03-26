@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+:root {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flow-root;
+}
+
+header, main {
+    border-bottom: 2px solid grey;
+    padding: 50px;
+}
+
+footer {
+    padding: 50px;
+}
+
+main {
+    display: inline-block;
+    height: fit-content;
+}
+
+.header-button {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 3px solid purple;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: purple;
+    font-weight: 600;
+   transition: background-color, color .25s ease-in-out;
+   }
+
+.header-button:hover {
+    
+    color: white;
+    background-color: purple;
+    
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+    margin-top: 16px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 78%;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+
